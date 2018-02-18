@@ -16,6 +16,7 @@
 
 
         <ImageView
+            android:scaleType="center"
             android:layout_width="wrap_content"
             android:layout_height="225dp"
             android:layout_margin="@dimen/margin5dp"
