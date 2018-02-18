@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="name"><a href="http://www.nannestephan.nl">Nanne-Stephan Stegeman</a></string>
+    <string name="urlGithub"><a href="https://github.com/NanneStephan">MY GitHub</a></string>
+    <string name="CompanyName">EnnanCo</string>
+    <string name="Email"><a href="nannestephan@gmail.com">Mail Me</a></string>
+    <string name="LinkedIn"><a href="https://www.linkedin.com/in/nanne-stephan-stegeman-800048147/">My LinkedIn</a></string>
+</resources>

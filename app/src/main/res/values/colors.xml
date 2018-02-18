@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Not in use -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- ColorPallet -->
+    <color name="BrokenWhite">#F1EEEF</color>
+    <color name="LightGray">#9E9797</color>
+    <color name="DarkGray">#504444</color>
+    <color name="DarkRed">#682C3A</color>
+    <color name="DarkPurple">#271B23</color>
+
+
+</resources>

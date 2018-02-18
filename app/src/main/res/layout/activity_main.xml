@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BrokenWhite"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:layout_margin="@dimen/margin5dp"
+            android:background="@drawable/header" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="@dimen/margin5dp"
+            android:layout_marginRight="@dimen/margin5dp"
+            android:background="@color/DarkGray"/>
+
+        <ImageView
+            android:baselineAlignBottom="true"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin5dp"
+            android:background="@drawable/shape" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/DarkRed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/margin5dp"
+        android:layout_marginTop="@dimen/margin5dp"
+        android:layout_marginRight="@dimen/margin5dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/CompanyName"
+            android:textColor="@color/BrokenWhite"
+            android:textSize="@dimen/topText" />
+
+        <TextView
+            android:onClick="homePage"
+            android:id="@+id/homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/textNest"
+            android:layout_marginStart="@dimen/textNest"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:fontFamily="@font/antic"
+            android:text="@string/name"
+            android:textColor="@color/BrokenWhite"
+            android:textSize="@dimen/fontSize" />
+
+        <TextView
+            android:onClick="gitHub"
+            android:id="@+id/gitHub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/homepage"
+            android:layout_marginLeft="@dimen/textNest"
+            android:layout_marginStart="@dimen/textNest"
+            android:layout_marginTop="@dimen/marginLinks"
+            android:drawableLeft="@drawable/githubicon"
+            android:fontFamily="@font/antic"
+            android:text="@string/urlGithub"
+            android:textColor="@color/BrokenWhite"
+            android:textSize="@dimen/fontSize"
+            />
+        <TextView
+            android:onClick="linkedIn"
+            android:id="@+id/LinkedIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gitHub"
+            android:layout_marginLeft="@dimen/textNest"
+            android:layout_marginStart="@dimen/textNest"
+            android:layout_marginTop="@dimen/marginLinks"
+            android:drawableLeft="@drawable/linkedin"
+            android:fontFamily="@font/antic"
+            android:text="@string/LinkedIn"
+            android:textColor="@color/BrokenWhite"
+            android:textSize="@dimen/fontSize"
+            />
+        <TextView
+            android:onClick="eMail"
+            android:id="@+id/eMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LinkedIn"
+            android:layout_marginLeft="@dimen/textNest"
+            android:layout_marginStart="@dimen/textNest"
+            android:layout_marginTop="@dimen/marginLinks"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:fontFamily="@font/antic"
+            android:text="@string/Email"
+            android:textColor="@color/BrokenWhite"
+            android:textSize="@dimen/fontSize"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

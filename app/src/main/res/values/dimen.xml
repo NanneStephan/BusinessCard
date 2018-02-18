@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontSize">20sp</dimen>
+    <dimen name="textNest">20dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+    <dimen name="marginLinks">10dp</dimen>
+    <dimen name="topText">25sp</dimen>
+</resources>
